@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head></head>
+<body>
+
+	<script src="node_modules/uxhr/uxhr.js"></script>
+	<script src="repocount.js"></script>
+	<script>
+
+		count = new repocount({
+			github: 'eighttrackmind'
+		}, function(res) {
+			console.log (res)
+		});
+
+	</script>
+
+</body>
+</html>
