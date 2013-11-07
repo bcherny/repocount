@@ -7,6 +7,7 @@ Fetch a user's contribution statistics from various platforms (currently support
 
 - supports github
 - supports paginated responses
+- async, so it won't block anything else going on on the page
 - umd
 
 ## usage
@@ -28,4 +29,13 @@ Fetch a user's contribution statistics from various platforms (currently support
 ```bash
 npm install
 grunt
+```
+
+## running the tests
+
+```bash
+npm install
+buster-server
+# open the given URL in a browser and press "Capture browser", then:
+buster-test
 ```

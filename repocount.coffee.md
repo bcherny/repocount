@@ -23,7 +23,7 @@ URLs for API `GET`s
 
 eg.
 ```coffee
-new Repocount
+new repocount
 	github: 'myGithubUsername'
 	npm: 'myNpmUsername'
 ```

@@ -1,12 +1,12 @@
 
-Repocount = require '../repocount'
+buster.spec.expose()
 
-exports.github = (test) ->
+describe 'github', ->
 
-	count = new Repocount
-		github: 'demo'
-	, (res) ->
-		
-		test.expect(res.length).to.equal(1)
+	it 'fetches the correct count', (done) ->
 
-		test.done()
+		count = new repocount
+			github: 'demo'
+		, (res) ->
+
+			done buster.assert.equals res.github.length, 1
