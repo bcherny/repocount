@@ -1,0 +1,33 @@
+{
+  "name": "repocount",
+  "main": "repocount.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/eighttrackmind/repocount",
+  "authors": [
+    "Boris Cherny <boris@performancejs.com>"
+  ],
+  "description": "Fetch a user's contribution statistics from various platforms",
+  "keywords": [
+    "repository",
+    "github",
+    "npm",
+    "bower",
+    "component",
+    "contribution",
+    "count",
+    "tally",
+    "statistic",
+    "social"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "uxhr": "~1.0.2"
+  }
+}
