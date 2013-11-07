@@ -1,0 +1,30 @@
+{
+  "name": "repocount",
+  "version": "0.0.0",
+  "description": "Fetch a user's contribution statistics from various platforms",
+  "main": "repocount.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:eighttrackmind/repocount.git"
+  },
+  "keywords": [
+    "repository",
+    "github",
+    "npm",
+    "bower",
+    "component",
+    "contribution",
+    "count",
+    "tally",
+    "statistic",
+    "social"
+  ],
+  "author": "Boris Cherny <boris@performancejs.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eighttrackmind/repocount/issues"
+  }
+}
